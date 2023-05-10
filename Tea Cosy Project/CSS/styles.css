@@ -1,0 +1,152 @@
+body {
+    background-color: black;
+    color: seashell;
+    font-size: 22px;
+    opacity: 0.8;
+    width: 100%;
+    max-width: 1200px;
+    font-family: "Helvetica";
+
+
+}
+
+
+header {
+    border-bottom: 1px solid seashell;
+    width: 1200px;
+    height: 69px;
+    display: inline;
+    position: fixed;
+    background-color: black;
+
+
+}
+
+ul {
+    text-align: right;
+    list-style: none;
+    margin-top: -35px;
+}
+
+ul li {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+ul li:last-child {
+    padding-right: 20px;
+}
+
+
+
+.logo {
+
+    height: 50px;
+    margin-left: 10px;
+    align-content: center;
+
+}
+
+#main {
+    height: 700px;
+    width: 1200px;
+    background-image: url("/Media/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+#mainbanner {
+
+    background-color: black;
+    text-align: center;
+    width: 1200px;
+}
+
+
+#tea-range {
+
+    width: 1000px;
+    text-align: center;
+    margin-left: 100px;
+
+}
+
+#teaimages {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+
+figcaption {
+    text-align: center;
+
+}
+
+
+.teatype {
+    height: 200px;
+    width: 300px;
+    float: center;
+    margin: 10px;
+}
+
+
+#locations {
+
+    background-image: url("/Media/img-locations-background.jpg");
+    height: 500px;
+    width: 1200px;
+    background-repeat: no-repeat;
+    /*align-items: center;
+    display: flex;
+    justify-content: center;*/
+}
+
+#locationhead {
+
+    text-align: center;
+    margin-bottom: -15px;
+    padding-top: 50px;
+}
+
+
+.address {
+
+    background-color: black;
+    opacity: 1;
+    text-align: center;
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    line-height: 2;
+    display: inline-block;
+    margin-top: 25px;
+
+}
+
+
+#downtown {
+
+    margin-left: 110px;
+
+}
+
+
+#contact {
+
+    line-height: 2;
+    height: 200px;
+    width: 1200px;
+    text-align: center;
+
+}
+
+footer {
+    margin-left: 20px
+}
